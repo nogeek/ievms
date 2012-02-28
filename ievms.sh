@@ -91,25 +91,25 @@ check_unrar() {
 build_ievm() {
     case $1 in
         6) 
-            url="http://download.microsoft.com/download/B/7/2/B72085AE-0F04-4C6F-9182-BF1EE90F5273/Windows_XP_IE6.exe"
+            url="http://www.microsoft.com/downloads/info.aspx?na=41&srcfamilyid=21eabb90-958f-4b64-b5f1-73d0a413c8ef&srcdisplaylang=en&u=http%3a%2f%2fdownload.microsoft.com%2fdownload%2fB%2f7%2f2%2fB72085AE-0F04-4C6F-9182-BF1EE90F5273%2fWindows_XP_IE6.exe"
             archive="Windows_XP_IE6.exe"
             vhd="Windows XP.vhd"
             vm_type="WindowsXP"
             ;;
         7) 
-            url="http://download.microsoft.com/download/B/7/2/B72085AE-0F04-4C6F-9182-BF1EE90F5273/Windows_Vista_IE7.part0{1.exe,2.rar,3.rar,4.rar,5.rar,6.rar}"
+            url="http://www.microsoft.com/downloads/info.aspx?na=41&srcfamilyid=21eabb90-958f-4b64-b5f1-73d0a413c8ef&srcdisplaylang=en&u=http%3a%2f%2fdownload.microsoft.com%2fdownload%2fB%2f7%2f2%2fB72085AE-0F04-4C6F-9182-BF1EE90F5273%2fWindows_Vista_IE7.part0{1.exe,2.rar,3.rar,4.rar,5.rar,6.rar}"
             archive="Windows_Vista_IE7.part01.exe"
             vhd="Windows Vista.vhd"
             vm_type="WindowsVista"
             ;;
         8) 
-            url="http://download.microsoft.com/download/B/7/2/B72085AE-0F04-4C6F-9182-BF1EE90F5273/Windows_7_IE8.part0{1.exe,2.rar,3.rar,4.rar}"
+            url="http://www.microsoft.com/downloads/info.aspx?na=41&srcfamilyid=21eabb90-958f-4b64-b5f1-73d0a413c8ef&srcdisplaylang=en&u=http%3a%2f%2fdownload.microsoft.com%2fdownload%2fB%2f7%2f2%2fB72085AE-0F04-4C6F-9182-BF1EE90F5273%2fWindows_7_IE8.part0{1.exe,2.rar,3.rar,4.rar}"
             archive="Windows_7_IE8.part01.exe"
             vhd="Win7_IE8.vhd"
             vm_type="Windows7"
             ;;
         9) 
-            url="http://download.microsoft.com/download/B/7/2/B72085AE-0F04-4C6F-9182-BF1EE90F5273/Windows_7_IE9.part0{1.exe,2.rar,3.rar,4.rar,5.rar,6.rar,7.rar}"
+            url="http://www.microsoft.com/downloads/info.aspx?na=41&srcfamilyid=21eabb90-958f-4b64-b5f1-73d0a413c8ef&srcdisplaylang=en&u=http%3a%2f%2fdownload.microsoft.com%2fdownload%2fB%2f7%2f2%2fB72085AE-0F04-4C6F-9182-BF1EE90F5273%2fWindows_7_IE9.part0{1.exe,2.rar,3.rar,4.rar,5.rar,6.rar,7.rar}"
             archive="Windows_7_IE9.part01.exe"
             vhd="Windows 7.vhd"
             vm_type="Windows7"
